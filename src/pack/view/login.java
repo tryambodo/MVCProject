@@ -5,12 +5,21 @@
  */
 package pack.view;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import javax.swing.JOptionPane;
+import pack.control.login_koneksi;
+
 /**
  *
  * @author ASUS TP 450 LDV
  */
 public class login extends javax.swing.JFrame {
-
+    String useraktif;
     /**
      * Creates new form login
      */
